@@ -1,4 +1,5 @@
 #very basic, may improve later on
+#Solves substitution ciphers by matching most frequent letters in english alphabet with the most frequent in the ciphertext
 cipher_text = """ZDL QTMJ CBNDV QTB ZDL VBMMNOXV FD QGOVKXVDX. ZDL KFXND, FD TMZ ZDL RONNB JXN VBFKNVKX, QJVL QTB ZDL RONNB JXN SDDOVNDN MQ ZDL GBVNKXN"""
 
 def frequency_analysis(text):
