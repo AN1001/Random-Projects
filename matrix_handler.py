@@ -3,6 +3,7 @@ class matrix():
                 self.data = data
 
         def dot_product(self, a, b):
+                #Ensure arrays are same len i.e. dot product can be calculated
                 if len(a) != len(b):
                         return False
                 return sum([a[i]*b[i] for i in range(len(a))])
